@@ -8,5 +8,3 @@ def load(file):
     X[:,1] = x
 
     return X,y
-
-x,y = load('data.txt')
