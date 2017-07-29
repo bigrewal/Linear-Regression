@@ -1,5 +1,5 @@
-from loss import computeCost
 import numpy as np
+from one_variable.loss import computeCost
 
 def gradientDescent(X, y, theta, learning_rate, total_iters):
 
@@ -7,7 +7,6 @@ def gradientDescent(X, y, theta, learning_rate, total_iters):
     loss_history = np.zeros(total_iters);
 
     n = y.size
-
     for i in range(total_iters):
         theta0 = theta[0]
         theta1 = theta[1]
