@@ -13,6 +13,7 @@ theta = np.zeros(2) #Initialise theta to zero
 learning_rate = 0.01
 total_iters = 1500
 
+#Start Training
 theta,loss_history = gradientDescent(X, y, theta, learning_rate, total_iters)
 
 #Use the trained weights (theta) to predict
