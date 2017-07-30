@@ -12,7 +12,7 @@ def gradientDescent(X, y, theta, learning_rate, total_iters):
         theta1 = theta[1]
 
         hyp = theta0 + (theta1 * I)
-        loss = computeCost(theta0, theta1, I, y)
+        loss = computeCost(theta, I, y)
         print("Loss: ",loss)
         loss_history[i] = loss
 
