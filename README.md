@@ -9,4 +9,5 @@ Checkout **one_variable/** and **/multivariate** directories for more detail
 You can install Python dependencies using `pip install -r requirements.txt`,
 and it should just work. Here's the list of dependencies:
 
-* [NumPy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
+* NumPy
+* matplotlib
